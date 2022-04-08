@@ -3,8 +3,8 @@
 #Variable initialization
 project=("landingpage" "wordpress" "sosmed")
 length=${#project[@]}
-download_url=("https://github.com/sdcilsy/landing-page/archive/refs/heads/master.zip" "https://wordpress.org/latest.zip" "https://github.com/sdcilsy/sosial-media/archive/master.zip")
-unzip_folder=("landing-page-master" "wordpress" "sosial-media-master")
+download_url=("https://github.com/addekrisna/samehada-landingpage/archive/refs/heads/main.zip" "https://github.com/addekrisna/samehada-wordpress/archive/refs/heads/main.zip" "https://github.com/addekrisna/samehada-sosmed/archive/refs/heads/main.zip")
+unzip_folder=("samehada-landingpage-main" "samehada-wordpress-main" "samehada-sosmed-main")
 vhost_path="/etc/apache2/sites-available"
 root_path="/var/www"
 passwd=`date|md5sum|cut -c '1-12'`
